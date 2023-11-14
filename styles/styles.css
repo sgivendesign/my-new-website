@@ -1,5 +1,66 @@
+/** overall page layout and spacing **/
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.center-column {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.bg-dark {
+    background-color: #1f2937;
+}
+
+
+
+/** links and lists **/
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+}
+a:active {
+    color: #fff;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/** header **/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.nav {
+    display: flex;
+}
+.navlogo {
+    display: flex;
+    font-weight: 800;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navlink {
+    margin-right: 14px;
+}
+
+
+/** footer **/
+.footer {
+    display: flex;
 }
