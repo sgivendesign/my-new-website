@@ -116,7 +116,6 @@ section {
 .cat-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 80px;
@@ -131,8 +130,7 @@ section {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
 }
 .card {
     display: flex;
@@ -153,7 +151,7 @@ section {
     margin-bottom: 100px;   
 }
 #cat-quote {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 200;
     font-style: italic;
     color: #222222;
