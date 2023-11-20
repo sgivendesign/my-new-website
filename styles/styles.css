@@ -20,6 +20,9 @@ body {
 .bg-dark {
     background-color: #1f2937;
 }
+.bg-grey {
+    background-color: #e5e7eb;
+}
 a {
     text-decoration: none;
 }
@@ -140,6 +143,26 @@ section {
     max-width: 200px;
     text-align: center;
     padding: 3px;
+}
+.card img {
+    border-radius: 8px;
+}
+/* Quote Section */
+.quote-space {
+    margin-top: 100px;
+    margin-bottom: 100px;   
+}
+#cat-quote {
+    font-size: 38px;
+    font-weight: 200;
+    font-style: italic;
+    color: #222222;
+}
+#cat-quote-author {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222222;
+    text-align: right;
 }
 
 
