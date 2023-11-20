@@ -10,7 +10,6 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
 }
 .center-column {
@@ -20,10 +19,6 @@ body {
 .bg-dark {
     background-color: #1f2937;
 }
-
-
-
-/** links and lists **/
 a {
     text-decoration: none;
 }
@@ -38,11 +33,26 @@ ul {
     padding: 0;
     margin: 0;
 }
+button {
+    color: #fff;
+    background-color: #2882f6;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+section {
+    margin: 0;
+}
 
 
 
 /** header **/
-.header {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,12 +64,51 @@ ul {
 .navlogo {
     display: flex;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 26px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f9faf8;
 }
 .navlink {
-    margin-right: 14px;
+    margin-right: 16px;
 }
+
+
+
+/** content **/
+.hero {
+    display: flex;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.hero-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+    min-width: 250px;
+}
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-left button {
+    width: 130px;
+}
+.hero-right img {
+    flex-shrink: 0;
+}
+
 
 
 /** footer **/
@@ -68,4 +117,7 @@ ul {
     align-items: center;
     justify-content: center;
     height: 60px;
+}
+.push-footer {
+    margin-top: auto;
 }
