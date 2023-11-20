@@ -74,7 +74,7 @@ section {
 
 
 
-/** content **/
+/* Hero Section */
 .hero {
     display: flex;
     margin: 100px auto;
@@ -107,6 +107,23 @@ section {
 }
 .hero-right img {
     flex-shrink: 0;
+}
+/* Cat Info Section */
+.cat-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cat-info h2{
+    flex: 1;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+.card {
+    display: flex;
+    flex: 1;
 }
 
 
