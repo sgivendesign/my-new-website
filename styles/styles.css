@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-y: auto;
 }
 .center-column {
     max-width: 960px;
@@ -114,6 +115,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 .cat-info h2{
     flex: 1;
@@ -121,9 +124,22 @@ section {
     font-size: 36px;
     font-weight: 800;
 }
+.info-cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 .card {
     display: flex;
     flex: 1;
+    flex-direction: column;
+    color: #000;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    padding: 3px;
 }
 
 
